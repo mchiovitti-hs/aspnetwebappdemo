@@ -50,7 +50,6 @@ stages:
 
     - task: AzureCLI@2
       inputs:
-        azureSubscription: 'EU EA - Azure Enterprise Integration(95e7b3d6-7495-4129-a671-c55137776db9)'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
